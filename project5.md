@@ -169,7 +169,7 @@ Kết quả hiển thị giao diện web của HAProxy, tại đây ta có thể
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/1czntslpfp_Screenshot%202021-10-22%20005031.png)
 
-Thử shutdown web server 2 kiểm tra trạng thái 
+Thử shutdown web server 2 và kiểm tra trạng thái trên giao diện web 
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/juuap95gpx_Screenshot%202021-10-22%20020535.png)
 
@@ -177,7 +177,7 @@ Thử shutdown web server 2 kiểm tra trạng thái
 
 Trên HAProxy Server 1, chỉnh sửa file rsyslog.conf ` # vi /etc/rsyslog.conf `
 
-Thay đội nội dung như sau, lưu lại và thoát
+Thay đổi nội dung như sau, lưu lại và thoát
 ```
 # Provides UDP syslog reception
 $ModLoad imudp
