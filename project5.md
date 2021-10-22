@@ -21,7 +21,7 @@ Yêu cầu
 * Web Server 2: 192.168.1.52
 * VIP: 192.168.1.100  
 
-### 1. Cài đặt HAProxy trên 2 server làm Load-balancer
+### 1. Cài đặt HAProxy trên 2 Load-balancer
 
 #### Load-balacer 1
 
