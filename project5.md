@@ -11,7 +11,7 @@ Yêu cầu
 
 ### Mô hình LAB
 
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/sajsrfphe_Screenshot%202021-10-22%20020144.png)
+
 
 * Mô hình gồm có 2 Load-balancer và 2 Web Server
 * Các Server đều sử dụng hệ điều hành CentOS 7
