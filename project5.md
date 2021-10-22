@@ -61,7 +61,7 @@ Tắt SELinux và Firewalld
 
 #### Load-balancer 2
 
-Thực hiện cài đặt HAproxy tương tự như với Load-balancer 1
+Thực hiện cài đặt HAProxy tương tự như với Load-balancer 1
 
 ### 2. Cài đặt Keepalived để tạo Virtual IP
 
