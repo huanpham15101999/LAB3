@@ -161,7 +161,7 @@ Như vậy ta đã cấu hình Load-balancing cho 2 web server thành công vớ
 
 #### Giao diện web của HAProxy
 
-Truy cập ` # http://192.168.159.100/haproxy?stats `, nhập username và password đã thiết lập trong file haproxy.conf 
+Truy cập ` http://192.168.159.100/haproxy?stats `, nhập username và password đã thiết lập trong file haproxy.conf 
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/x0qeoy8tc9_Screenshot%202021-10-22%20004903.png)
 
