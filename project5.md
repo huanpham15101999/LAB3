@@ -195,7 +195,7 @@ Tạo file log HAProxy trong /var/log/haproxy.conf và cấp quyền
 # touch /var/log/haproxy.log
 # chmod 755 /var/log/haproxy.log
 ```
-Khởi động lại rsyslog ' # systemctl restart rsyslog `
+Khởi động lại rsyslog ` # systemctl restart rsyslog `
 
 Bây giờ thử request 3 lần tới địa chỉ VIP và kiểm tra file log trong /var/log/haproxy.log
 
