@@ -78,19 +78,19 @@ Chỉnh sửa file keepalived.conf
 Sửa nội dung như sau, lưu lại và  thoát
 ```
 vrrp_script chk_haproxy { 
-script "killall -0 haproxy"    # check the haproxy process
-interval 2    # check every 2 seconds
-weight 2    # add 2 points to priority if OK
+script "killall -0 haproxy"        # check the haproxy process
+interval 2                         # check every 2 seconds
+weight 2                           # add 2 points to priority if OK
 }
 
 vrrp_instance VI_1 {
-interface ens33    # interface to monitor
-state MASTER    # MASTER on haproxy1, BACKUP on haproxy2
+interface ens33                    # interface to monitor
+state MASTER                       # MASTER on haproxy1, BACKUP on haproxy2
 virtual_router_id 51
-priority 101    # priority 101 # 101 on haproxy1, 100 on haproxy2
+priority 101                       # priority 101 # 101 on haproxy1, 100 on haproxy2
 
 virtual_ipaddress {
-192.168.1.100    # VIP
+192.168.1.100                      # VIP
 }
 
 track_script {
