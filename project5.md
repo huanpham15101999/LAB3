@@ -13,7 +13,7 @@ Yêu cầu
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/sajsrfphe_Screenshot%202021-10-22%20020144.png)
 
-* Mô hình gồm có 2 Load-balancer Server và 2 Web Server
+* Mô hình gồm có 2 Load-balancer và 2 Web Server
 * Các Server đều sử dụng hệ điều hành CentOS 7
 * LB1: 192.168.1.150 (Master)
 * LB2: 192.168.1.111 (Backup)
