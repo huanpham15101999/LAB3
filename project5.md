@@ -87,7 +87,7 @@ vrrp_instance VI_1 {
 interface ens33                    # interface to monitor
 state MASTER                       # MASTER on haproxy1, BACKUP on haproxy2
 virtual_router_id 51
-priority 101                       # priority 101 # 101 on haproxy1, 100 on haproxy2
+priority 101                       # 101 on haproxy1, 100 on haproxy2
 
 virtual_ipaddress {
 192.168.1.100                      # VIP
